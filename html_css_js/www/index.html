@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<link href="design.css" rel="stylesheet">
+	<head>
+		<script type="text/javascript" src="codefile.js">
+		</script>
+	</head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content ="width=device-width, initial-scale=1.0">
+	
+	<title>
+		Robot car
+	</title>
+	<body>
+		<script type="text/javascript" src="codefile.js">
+
+
+  	</script>
+		<div>
+			<h1 id="rcorners1">
+			RoboCar
+	    	</h1>
+	    </div>
+		<div class="rows">
+		<form id="frm1">
+			<div class="column-3">
+				<label for="fname" style="font-size:3vw;font-weight: bold" >Server IP</label><br>
+				<input type="checkbox"  id="islocal_id" style="font-size:2vw;font-weight: bold"onclick="selectip()">
+				<label for="xx" style="font-size:100%;font-weight: bold"> Local Host</label>
+			
+ 				<input  class="input txt"         id="server_ip_idd"   type="text"  name="fname"  value="192.168.43.163" placeholder="Server Ip"><br>
+				
+ 				<input  class="input txt"          id="server_port_id"   type="text"  name="fname"  value="3300" placeholder="Port"><br>	
+				<input  class="input txt"     id="user_id"   type="text"  name="fname" value="" placeholder="Node"><br>
+			
+			    <button class="button buttongreen" id="order_id"      onclick="orderbtn()"> Order </button><br>
+				<button class="button buttonred"   id="cancelorder_id"  onclick="cancelorderbtn()">Cancel order</button><br>
+				<button class="button buttonblue"  id="getnumoforders_id"    onclick="getnumoforders()"> number of orders </button><br>
+				<button class="button buttonred"   id="getallorders_id"    onclick="getallorders()"> All orders </button><br>	
+				<button class="button buttongreen" id="getpath_id"    onclick="getpathbtn()"> Get next path </button><br>
+				
+				<p id="demo" name="mmm"></p> 
+				<!--<select id="pathlist2show">
+					<option> 1 </option>
+					<option> 2 </option>
+				</select> -->
+			</div>
+		</form>
+		<img src="logo.png" alt="RobotcCar" width="400" height="400">
+		<div class="column-9">	</div>
+	</body>
+</html>
